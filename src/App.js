@@ -9,16 +9,14 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <Container>
-        <Row>
-          <Col md={5}>
-            <InputCard />
-          </Col>
-          <Col md={7}>
-            <InputCard />
-          </Col>
-        </Row>
-      </Container>
+      <Row className="mt-3 mx-3">
+        <Col md={5}>
+          <InputCard />
+        </Col>
+        <Col md={7}>
+          <InputCard />
+        </Col>
+      </Row>
     </div>
   );
 }
