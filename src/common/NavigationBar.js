@@ -1,24 +1,20 @@
 import React, { Component } from 'react';
 
 import logo from '../logo.svg';
-//import './Navbar.css';
+import './NavigationBar.css';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 class NavigationBar extends React.Component {
   render() {
     return (
-      <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">
-          <img
-            alt=""
-            src={logo}
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-          />{' '}
-          React Bootstrap
+      <Navbar variant="dark">
+        <Navbar.Brand href="/">
+          <FontAwesomeIcon icon={["fal", "coffee"]} />{' '}
+          Mark(ov) My Words
         </Navbar.Brand>
       </Navbar>
     )
