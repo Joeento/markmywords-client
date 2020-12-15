@@ -4,6 +4,7 @@ import './App.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import NavigationBar from './common/NavigationBar';
 import InputCard from './common/cards/InputCard';
+import ResultsCard from './common/cards/ResultsCard';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <InputCard />
         </Col>
         <Col md={7}>
-          <InputCard />
+          <ResultsCard />
         </Col>
       </Row>
     </div>
