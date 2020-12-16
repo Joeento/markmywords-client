@@ -1,9 +1,19 @@
 .result-text {
   font-size: 2rem;
 }
+
 .markov-card:not(:first-child) {
-  margin-top: 15px
+  margin-top: 15px;
 }
+
 .markov-card:last-child {
   margin-bottom: 1.25rem;
+}
+
+.markov-card:not(:first-child) .result-text {
+  font-size: 1.0em;
+}
+
+.markov-card:not(:first-child) .original-text {
+  font-size: .8em;
 }

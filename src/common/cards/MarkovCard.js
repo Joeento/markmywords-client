@@ -11,11 +11,13 @@ class MarkovCard extends Component {
           <span className="result-text">{this.props.result}</span>
           <br />
           <div className="float-right">
-          <small className="text-muted"> 5 minutes ago</small>
+            <small className="text-muted">5 minutes ago</small>
           </div>
         </Card.Body>
         <Card.Footer className="text-muted">
-          <strong>Original: </strong> {this.props.original}
+          <div className="original-text">
+            <strong>Original: </strong> {this.props.original}
+          </div>
         </Card.Footer>
       </Card>
     );
