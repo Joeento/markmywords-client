@@ -19,12 +19,28 @@ class InputCard extends Component {
                 label="Upload a text file."
                 custom />
             </Form.Group>
-            <Form.Row>
+            <Form.Row className="mt-4">
+              <Col md={2}>
+                <Form.Label className="settings-label">Start With</Form.Label>
+              </Col>
+              <Col md={6}>
+                <Form.Control type="text" placeholder="Enter starting text..." size='20' />
+              </Col>
+            </Form.Row>
+            <Form.Row className="mt-4">
               <Col md={2}>
                 <Form.Label className="settings-label">Prefix Size</Form.Label>
               </Col>
               <Col md={2}>
-                <NumericInput className='form-control' value="3" size='2' />
+                <NumericInput className='form-control' value="3" size="2" />
+              </Col>
+            </Form.Row>
+            <Form.Row className="mt-4">
+              <Col md={2}>
+                <Form.Label className="settings-label">Length</Form.Label>
+              </Col>
+              <Col md={2}>
+                <NumericInput className='form-control' value="20" size="2" />
               </Col>
             </Form.Row>
             <Button variant="primary" type="submit" size="lg" className="float-right">
