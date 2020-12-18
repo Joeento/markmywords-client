@@ -43,7 +43,7 @@ class InputCard extends Component {
                 <NumericInput className='form-control' value="20" size="2" />
               </Col>
             </Form.Row>
-            <Button variant="primary" type="submit" size="lg" className="float-right">
+            <Button variant="success" type="submit" size="lg" className="float-right">
               Generate!
             </Button>
           </Form>
