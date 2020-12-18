@@ -13,10 +13,10 @@ function App() {
       <Container>
         <NavigationBar />
         <Row className="mt-3 mx-3">
-          <Col md={5}>
+          <Col sm={5}>
             <InputCard />
           </Col>
-          <Col md={7}>
+          <Col sm={7}>
             <ResultsCard />
           </Col>
         </Row>
