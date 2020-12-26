@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { Card, Row, Col, Form, Button } from 'react-bootstrap';
+import React from 'react';
+import { Card, Col, Form, Button } from 'react-bootstrap';
 import NumericInput from 'react-numeric-input';
 
 import './InputCard.css';
 
-class InputCard extends Component {
+class InputCard extends React.Component {
   render() {
     return (
       <Card>

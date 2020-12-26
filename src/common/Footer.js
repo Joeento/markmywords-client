@@ -1,10 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import logo from '../logo.svg';
 import './Footer.css';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLink } from '@fortawesome/free-solid-svg-icons'
 
 class Footer extends React.Component {
   render() {

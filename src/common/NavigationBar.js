@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import logo from '../logo.svg';
 import './NavigationBar.css';
 
 import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink } from '@fortawesome/free-solid-svg-icons'

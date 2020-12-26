@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Row, Col, Form, Button } from 'react-bootstrap';
-import NumericInput from 'react-numeric-input';
+import { Card } from 'react-bootstrap';
 
 import MarkovCard from './MarkovCard';
 
