@@ -9,9 +9,9 @@ class InputCard extends React.Component {
     super(props);
     this.state ={
       file: null,
+      prefix: '',
       n: 1,
-      length: 10,
-      prefix: ''
+      length: 10
     }
 
     //this.onFormSubmit = this.onFormSubmit.bind(this)
